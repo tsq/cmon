@@ -78,7 +78,11 @@ void compile_and_run()
     strcat(dest, cFileName);
     strcat(dest, " -o ");
     strcat(dest, exe);
+#ifdef WIN32
     strcat(dest, " && ");
+#else
+    strcat(dest, " && ./");
+#endif
     strcat(dest, exe);
     printf("\x1b[32m[cmon] starting `%s`\x1b[0m\n", dest);
     system(dest);
