@@ -18,7 +18,7 @@
 #include <unistd.h> // for usleep
 #endif
 
-char version[] = "1.0.0";
+char version[] = "1.0.1";
 char *cFileName = "";
 struct tm *t;
 struct stat attrib;
