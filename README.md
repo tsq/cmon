@@ -2,8 +2,6 @@
 
 A command line tool to monitor for any changes in your C file and automatically recompile and execute it. Be inspired by [nodemon](https://github.com/remy/nodemon)
 
-See the video tutorial on: https://cmon.clang.cool
-
 ## Usage
 
 ```sh
