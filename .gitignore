@@ -1,7 +1,8 @@
 
 build
-.vscode
 *.obj
 *.o
 *.exe
 test.c
+test
+cmon
