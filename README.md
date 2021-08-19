@@ -1,6 +1,6 @@
 # cmon
 
-A command line tool to monitor for any changes in your C file and automatically recompile and execute it. Be inspired by [nodemon](https://github.com/remy/nodemon)
+A command line tool to monitor for any changes in your C file and **automatically** recompile and execute it based on **gcc**. Be inspired by [nodemon](https://github.com/remy/nodemon)
 
 ## Usage
 
