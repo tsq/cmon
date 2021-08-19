@@ -6,3 +6,4 @@ build
 test.c
 test
 cmon
+macos_cmon
