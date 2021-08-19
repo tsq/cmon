@@ -38,43 +38,11 @@ cmon demo.c        # compile and execute it
 
 ## Install
 
-#### On macOS or Linux
+1. download executable file: [For Windows](https://github.com/tsq/cmon/releases/download/v1.0.0/cmon.exe), [For macOS and Linux](https://github.com/tsq/cmon/releases/download/v1.0.0/cmon)
 
-**by curl**
+2. copy the download file to any directory which is already exists in the **PATH** 
 
-```sh
-curl -o xxx.sh
-```
+## Note
 
-**by wget**
-
-```sh
-```
-
-**by source code**
-
-```sh
-```
-
-#### On Windows
-
-```
-
-```
-
-## TODO
-
-You can skip the file name if there is only one c file on current directory.
-
-```
-cmon app.c
-y [cmon] 2.0.6
-y [cmon] watching file: 
-11
-g [cmon] starting `recompile and reexecute`
-22
-```
-
-```
-
-```
+1. The GCC should be available on your machine.
+2. This tool just support GCC compiler no other compilers like clang.
