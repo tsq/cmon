@@ -40,7 +40,7 @@ cmon demo.c        # compile and execute it
 
 #### On macOS or Linux
 
-1. download executable file: [for Windows](), [for macOS and Linux]()
+1. download executable file: [For Windows](https://github.com/tsq/cmon/releases/download/v1.0.0/cmon.exe), [For macOS and Linux](https://github.com/tsq/cmon/releases/download/v1.0.0/cmon)
 
 2. copy the download file to any directory which is already exists in the **PATH** 
 
