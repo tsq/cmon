@@ -44,6 +44,16 @@ void get_c_file_name(int argc, char **argv)
         showErrMsg("Error: You need to specify a c file!");
     }
 
+    if (strcmp(argv[1], "-v") == 0)
+    {
+        puts(version);
+        exit(0);
+    }
+    if (strcmp(argv[1], "-h") == 0)
+    {
+        puts("Usage: cmon your_c_file.c");
+        exit(0);
+    }
     char *fileName = argv[1];
 
     if (!strstr(fileName, ".c"))
@@ -162,7 +172,7 @@ void watch()
 
     while (1)
     {
-        sleep_ms(1000);
+        sleep_ms(500);
         int changed = is_changed();
 
         if (changed)
