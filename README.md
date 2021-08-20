@@ -64,7 +64,7 @@ sudo chmod +x /usr/local/bin/cmon
 cmon -v
 ```
 
-**tips:** when you run the `cmon` command at first time, you maybe see an error dialog, the message is like this:
+**Tip:** when you run the `cmon` command at first time, you maybe see an error dialog, the message is like this:
 
 ```
 “cmon” cannot be opened because the developer cannot be verified.
