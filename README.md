@@ -23,6 +23,9 @@ cmon demo.c
 ```cmd
 cmon -v
 ```
+
+**Tip**: the installation directory is `C:\Program Files (x86)\cmon`.
+
 #### On Linux
 1. Run this command to download `cmon`: 
 
