@@ -25,7 +25,7 @@ cmon -v
 
 **Tip**: the installation directory is `C:\Program Files (x86)\cmon`.
 
-Actually, if you don't want to restart you PC for installation, you can just download the `cmon.exe` from [here](https://github.com/tsq/cmon/releases/download/v1.0.1/cmon.exe), then move it to your favorite directory, then edit the **PATH** environment variables and append the path of your favorite directory.
+Actually, I use `inno setup` to create the `cmon-setup.exe`, but I found we must restart our PC, before we can use the `cmon` command. If you don't want to restart you PC for installation, you can use another installation method, just download the `cmon.exe` from [here](https://github.com/tsq/cmon/releases/download/v1.0.1/cmon.exe), then move it to your favorite directory, then edit the **PATH** environment variables and append the path of your favorite directory.
 
 #### On Linux
 1. Run this command to download `cmon`: 
