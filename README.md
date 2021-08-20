@@ -15,10 +15,9 @@ cmon demo.c
 #### On Windows
 
 1. Click [here](https://github.com/tsq/cmon/releases/download/v1.0.1/cmon-setup.exe) to download `cmon-setup.exe`.
-
-2. double click the `cmon-setup.exe` and finish the installation.
-
-3. Open `Command Prompt` and test the installation:
+2. Double click the `cmon-setup.exe` and finish the installation.
+3. Restart your PC
+4. Open `Command Prompt` and test the installation:
 
 ```cmd
 cmon -v
