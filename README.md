@@ -51,17 +51,19 @@ cmon -v
 ```
 #### On macOS
 
-1. Click [here](https://github.com/tsq/cmon/releases/download/v1.0.1/macos_cmon) to download executable binary of cmon.
-
-2. Open `Terminal` and run:
+1. Run this command to download `cmon`: 
 
 ```sh
-mv macos_cmon cmon
-sudo mv cmon /usr/local/bin
+sudo curl -L "https://github.com/tsq/cmon/releases/download/v1.0.1/macos_cmon" -o /usr/local/bin/cmon
+```
+
+2. Apply executable permissions to the binary:
+
+```sh
 sudo chmod +x /usr/local/bin/cmon
 ```
 
-3. Open a new `Terminal` and test the installation:
+3. Test the installation:
 
 ```sh
 cmon -v
@@ -116,3 +118,4 @@ cmon demo.c        # compile and execute it
 1. The `gcc` need to be available on your machine.
 2. This tool just support `gcc` compiler no other compilers like clang.
 3. It just supports compiling a single c file.
+4. On Windows, you should use `Command Prompt` not `Powershell`.
