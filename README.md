@@ -79,7 +79,7 @@ to fix this problem, your should:
 
 ## Why
 
-This tool will made your C-Learning-Life happy.
+This tool will made your **C-Learning-Life** happy.
 
 **before**
 
