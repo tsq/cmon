@@ -114,3 +114,4 @@ cmon demo.c        # compile and execute it
 1. The `gcc` need to be available on your machine.
 2. This tool just support `gcc` compiler no other compilers like clang.
 3. It just supports compiling a single c file.
+4. It doesn't support passing command-line arguments
